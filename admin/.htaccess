@@ -1,0 +1,5 @@
+DirectoryIndex login.php
+
+<FilesMatch "_common\.php|_head\.php">
+	Deny from all
+</FilesMatch>

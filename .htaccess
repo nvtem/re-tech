@@ -1,0 +1,10 @@
+Allow from all
+Options -Indexes
+
+DirectoryIndex index.html index.php
+
+<FilesMatch "composer\.json|composer\.lock|README\.md">
+	Deny from all
+</FilesMatch>
+
+php_value short_open_tag 1
